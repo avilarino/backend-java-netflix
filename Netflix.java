@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Netflix {
 
 	
-	ArrayList <Cliente> clientes = new ArrayList<>();
-	ArrayList <Cliente> clientesBorrados = new ArrayList<>();
+	private ArrayList <Cliente> clientes = new ArrayList<>();
+	private ArrayList <Cliente> clientesBorrados = new ArrayList<>();
 	
 	
 	Netflix(){

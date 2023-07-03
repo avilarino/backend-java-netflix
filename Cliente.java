@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 
 public class Cliente {
-	String dni;
-	String nombre;
-	int saldo;
-	ArrayList <Pelicula> peliculas = new ArrayList<>();
-	Servicio servicio;
+	private String dni;
+	private String nombre;
+	private int saldo;
+	private ArrayList <Pelicula> peliculas = new ArrayList<>();
+	private Servicio servicio;
 	
 	Cliente(String dni, String nombre, int saldo, Servicio servicio){
 		this.peliculas = peliculas;

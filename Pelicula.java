@@ -3,8 +3,8 @@ package Netflix;
 public class Pelicula {
 	
 	
-	String nombre;
-	Servicio servicio;
+	private String nombre;
+	private Servicio servicio;
 	
 
 	public Pelicula(String nombre, Servicio servicio) {
