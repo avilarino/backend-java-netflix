@@ -1,0 +1,9 @@
+package Netflix;
+
+public enum ResultadoBaja {
+	CLIENTE_INEXISTENTE,
+	CONTENIDO_INEXISTENTE,
+	CLIENTE_DEUDOR,
+	CONTENIDO_NO_DISPONIBLE,
+	OK
+}
